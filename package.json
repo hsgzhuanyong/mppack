@@ -1,0 +1,32 @@
+{
+  "name": "mppack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config build/webpack.config.js --watch --progress",
+    "build": "cross-env NODE_ENV=production BUILD_TYPE=release webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^6.0.3",
+    "ensure-posix-path": "^1.1.1",
+    "file-loader": "^4.2.0",
+    "node-sass": "^4.12.0",
+    "replace-ext": "^1.0.0",
+    "required-path": "^1.0.1",
+    "sass-loader": "^8.0.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-sources": "^1.4.3",
+    "wxml-loader": "^0.3.0"
+  }
+}
